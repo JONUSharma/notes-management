@@ -1,11 +1,10 @@
 📝 Private Notes App
 
-<<<<<<< HEAD
+
 A minimal, secure notes application where each user can create and view only their own notes. The app focuses on authentication, data ownership, and simplicity, not advanced productivity features.
 =======
 A minimal, secure notes application where each user can create and view only their own notes.
 The app focuses on authentication, data ownership, and simplicity, not advanced productivity features.
->>>>>>> 3dc9e09d598ae29c163ec31aa4ba229478d38ece
 
 🔒 Core Idea
 
@@ -31,21 +30,18 @@ Delete
 
 Think of it as a personal scratchpad, not a productivity tool.
 
-<<<<<<< HEAD
+
 🧱 Tech Stack Frontend
 =======
 🧱 Tech Stack
 Frontend
->>>>>>> 3dc9e09d598ae29c163ec31aa4ba229478d38ece
 
 React (Vite)
 
 Supabase JS Client
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 3dc9e09d598ae29c163ec31aa4ba229478d38ece
+=======
 Backend
 
 Supabase (PostgreSQL)
@@ -54,11 +50,11 @@ Supabase Authentication
 
 Row Level Security (RLS)
 
-Deployment
+<h1>Deployment</h1>
 
 Vercel (Frontend)
 
-<<<<<<< HEAD
+
 🌐 Live Demo 🔗 Live URL: https://notes-management-nine.vercel.app/
 
 🚀 Getting Started (Local Setup)
@@ -96,7 +92,6 @@ npm run dev
 
 
 
->>>>>>> 3dc9e09d598ae29c163ec31aa4ba229478d38ece
 📌 Notes
 
 No backend server is used
@@ -107,7 +102,7 @@ Email verification was disabled for demo simplicity
 
 This project prioritizes correctness and security over features
 
-<<<<<<< HEAD
+
 👤 Author Jonu Sharma React
  • Node.js 
  • Supabase
@@ -116,4 +111,3 @@ This project prioritizes correctness and security over features
 👤 Author
 Jonu Sharma
 React • Node.js • Supabase • PostgreSQL
->>>>>>> 3dc9e09d598ae29c163ec31aa4ba229478d38ece
