@@ -1,16 +1,85 @@
-# React + Vite
+📝 Private Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal, secure notes application where each user can create and view only their own notes.
+The app focuses on authentication, data ownership, and simplicity, not advanced productivity features.
 
-Currently, two official plugins are available:
+🔒 Core Idea
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Notes are private by default and strictly tied to the authenticated user.
 
-## React Compiler
+There is:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+No sharing
 
-## Expanding the ESLint configuration
+No public notes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+No folders or tags
+
+Just:
+
+Login
+
+Write
+
+Read
+
+Delete
+
+Think of it as a personal scratchpad, not a productivity tool.
+
+🧱 Tech Stack
+Frontend
+
+React (Vite)
+
+Supabase JS Client
+
+
+Backend
+
+Supabase (PostgreSQL)
+
+Supabase Authentication
+
+Row Level Security (RLS)
+
+Deployment
+
+Vercel (Frontend)
+
+🌐 Live Demo
+🔗 Live URL: https://notes-management-nine.vercel.app/
+
+
+
+🚀 Getting Started (Local Setup)
+1. Clone the repository
+git clonehttps://github.com/JONUSharma/notes-management
+
+2. Install dependencies
+npm install
+
+3. Environment Variables
+
+Create a .env file:
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+4. Run the app
+npm run dev
+
+
+
+📌 Notes
+
+No backend server is used
+
+No sensitive keys are exposed
+
+Email verification was disabled for demo simplicity
+
+This project prioritizes correctness and security over features
+
+👤 Author
+Jonu Sharma
+React • Node.js • Supabase • PostgreSQL
